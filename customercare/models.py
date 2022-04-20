@@ -5,6 +5,7 @@ from queue import Empty
 from django.db import models
 
 COMMENT_TYPE = [
+    ('interested', 'interested'),
     ('recommend', 'recommend'),
     ('inquiry', 'Sophomore'),
     ('report', 'report'),
